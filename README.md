@@ -111,7 +111,7 @@ int main()
     closelog();
     
     return EXIT_SUCCESS;
-    }
+}
 ```
 ## Compile and run
  - Compile the code: `gcc -o firstdaemon daemonize.c`
