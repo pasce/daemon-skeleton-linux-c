@@ -9,7 +9,7 @@ Usually a syslog daemon (_syslogd_) is used for logging messages to files (debug
 
 Besides that, there are a few _required steps_ to daemonize a process.
 
-##Required Steps 
+## Required Steps 
 
  - __fork__ off the parent process & let it terminate if forking was successful. -> Because the parent process has terminated, the child process now runs in the background.
  - __setsid__ - Create a new session. The calling process becomes the leader of the new session and the process group leader of the new process group. The process is now detached from its controlling terminal (CTTY).
@@ -149,7 +149,6 @@ __Reading the syslog:__
 <time> <user> firstdaemon[3387]: First daemon terminated.
 </pre>
 
-<br>
 __A note:__
 In reality you would also want to implement a signal handler and set up the logging properly (Files, log levels...).
 
