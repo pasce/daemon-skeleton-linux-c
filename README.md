@@ -1,8 +1,8 @@
 
 * This is an answer of a question on stackoverflow: [__Creating a daemon in Linux__](https://stackoverflow.com/questions/17954432/creating-a-daemon-in-linux/17955149#17955149)
-* Fork the skeleton code: [__Basic skeleton of a linux daemon in C__](https://github.com/pasce/daemon-skeleton-linux-c)
+* Fork the skeleton code: [__Basic skeleton of a linux daemon written in C__](https://github.com/pasce/daemon-skeleton-linux-c)
 
-# Basic skeleton of a linux daemon in C
+# Basic skeleton of a linux daemon written in C
 
 Daemons work in the background and (usually...) don't belong to a TTY that's why you can't use stdout/stderr in the way you probably want.
 Usually a syslog daemon (_syslogd_) is used for logging messages to files (debug, error,...).
