@@ -23,8 +23,7 @@ Besides that, there are a few _required steps_ to daemonize a process.
 
 Look at this skeleton code that shows the basic steps:
 
-<!-- language: lang-c -->
-
+```c
     /*
      * daemonize.c
      * This example daemonizes a process, writes a few log messages,
@@ -94,8 +93,8 @@ Look at this skeleton code that shows the basic steps:
         /* Open the log file */
         openlog ("firstdaemon", LOG_PID, LOG_DAEMON);
     }
-  
- <!-- language: lang-c -->
+```  
+```c
 
     int main()
     {
@@ -114,7 +113,7 @@ Look at this skeleton code that shows the basic steps:
     
     	return EXIT_SUCCESS;
     }
-
+```
 ## Compile and run
  - Compile the code: `gcc -o firstdaemon daemonize.c`
  - Start the daemon: `./firstdaemon`
