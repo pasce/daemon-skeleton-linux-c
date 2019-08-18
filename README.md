@@ -31,6 +31,7 @@ Look at this skeleton code that shows the basic steps:
 * This is an answer to the stackoverflow question:
 * https://stackoverflow.com/questions/17954432/creating-a-daemon-in-linux/17955149#17955149
 * Fork this code: https://github.com/pasce/daemon-skeleton-linux-c
+* Read about it: https://nullraum.net/how-to-create-a-daemon-in-c/
 */
     
 #include <stdio.h>
