@@ -1,6 +1,7 @@
 
 * This is an answer of a question on stackoverflow: [__Creating a daemon in Linux__](https://stackoverflow.com/questions/17954432/creating-a-daemon-in-linux/17955149#17955149)
 * Fork the skeleton code: [__Basic skeleton of a linux daemon written in C__](https://github.com/pasce/daemon-skeleton-linux-c)
+* Read the article here: [How to create a c-style daemon](https://nullraum.net/how-to-create-a-daemon-in-c/)
 
 # Basic skeleton of a linux daemon written in C
 
