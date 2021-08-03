@@ -155,4 +155,3 @@ In reality you would also want to implement a signal handler and set up the logg
 __Further reading:__
 
  - [Linux-UNIX-Programmierung - German](http://openbook.galileocomputing.de/linux_unix_programmierung/Kap07-000.htm#Xxx999234)
- - [Unix Daemon Server Programming](http://www.enderunix.org/docs/eng/daemon.php)
